@@ -229,19 +229,19 @@ $(document).ready(function () {
       meterChart1.updateSeries([value.Meter_2])
       meterChart2.updateSeries([value.Meter_3])
       meterChart3.updateSeries([value.Meter_4])
-      document.getElementById("rotation").innerHTML = value.Meter_1
+      // document.getElementById("rotation").innerHTML = value.Meter_1
       $("#rotationCSS")
         .css("width", value.Meter_1 + "%")
         .attr("aria-valuenow", value.Meter_1)
-      document.getElementById("pressure").innerHTML = value.Meter_2
+      // document.getElementById("pressure").innerHTML = value.Meter_2
       $("#pressureCSS")
         .css("width", value.Meter_2 + "%")
         .attr("aria-valuenow", value.Meter_2)
-      document.getElementById("vibration").innerHTML = value.Meter_3
+      // document.getElementById("vibration").innerHTML = value.Meter_3
       $("#vibrationCSS")
         .css("width", value.Meter_3 + "%")
         .attr("aria-valuenow", value.Meter_3)
-      document.getElementById("voltage").innerHTML = value.Meter_4
+      // document.getElementById("voltage").innerHTML = value.Meter_4
       $("#voltageCSS")
         .css("width", value.Meter_4 + "%")
         .attr("aria-valuenow", value.Meter_4)
