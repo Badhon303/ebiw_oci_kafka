@@ -180,7 +180,8 @@ $(document).ready(function () {
   meterChart3.render()
 
   function webSocketInvoke() {
-    var socket = io("http://127.0.0.1:3000")
+    // var socket = io("http://127.0.0.1:3000")
+    var socket = io("http://150.230.181.106:3000")
     socket.on("event", (value) => {
       tankSideChart.updateSeries([
         {
